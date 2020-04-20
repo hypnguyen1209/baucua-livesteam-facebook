@@ -1,6 +1,6 @@
 (() => {
     const IDPOST = '2449187695183059';
-    const TOKEN = 'EAAAAUaZA8jlABABimCIUVDuxMIzZBelCXKRi7upn85RoKtdPnxnp8eAvqdAGVtbHrqOKSUBRuSZAUJtKc1rD8s9MHhl5rjAUOyWCGWYe6efM89R1i1pRVIF0LiZCdAR2YkQPLyMZAzZCaCMImbUyxeLrHZCH7ltXVVHF9jLAZAjd3zwjJTUTZA7w3';
+    const TOKEN = ''; // access_token 
     async function getDataComment() {
         let data = await fetch(`https://graph.facebook.com/graphql`, {
             method: 'POST',
