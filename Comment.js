@@ -1,6 +1,6 @@
 (() => {
-    const IDPOST = '2449187695183059';
-    const TOKEN = ''; // access_token 
+    const IDPOST = '123'; //ID post
+    const TOKEN = 'EAAA'; // access_token 
     async function getDataComment() {
         let data = await fetch(`https://graph.facebook.com/graphql`, {
             method: 'POST',
